@@ -6,11 +6,11 @@ import ddddocr
 import numpy as np
 from datetime import datetime, timedelta, timezone
 
-BOT_TOKEN = ""
-GITHUB_TOKEN = ""
-REPO_OWNER = ""
-REPO_NAME = ""
-ADMIN_ID = ""
+BOT_TOKEN = "8977797705:AAFVsyt-MSBMNqWTttq7B9gDnGMurUva1lA"
+GITHUB_TOKEN = "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"
+REPO_OWNER = "chanmyaetaung5991-pixel"
+REPO_NAME = "mybot-data"
+ADMIN_ID = "8056336803"
 bot = AsyncTeleBot(BOT_TOKEN)
 _telegram_send = bot.send_message
 _telegram_reply = bot.reply_to
